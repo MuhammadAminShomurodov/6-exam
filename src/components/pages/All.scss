@@ -1,0 +1,187 @@
+.All {
+  display: flex;
+
+  .sidebar {
+    background-color: #5b5ce2;
+    width: 97px;
+    height: 180vh;
+    z-index: 100;
+    .sidebar-logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-top: 30px;
+    }
+    .sidebar-body {
+      padding-top: 53px;
+      transition: 0.4s;
+      .settings {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        background: transparent;
+        .active {
+          background-color: #6c6de5;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 6px;
+        }
+        .rasm {
+          width: 50px;
+          height: 50px;
+        }
+      }
+    }
+  }
+  .all-right {
+    background-color: #eeeef5;
+    width: 100%;
+    .header {
+      background-color: #fff;
+      box-shadow: 0px 5px 40px 0px #2121210d;
+      width: 100% !important;
+      height: 80px;
+      h1 {
+        font-family: Mulish;
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 22.59px;
+        text-align: left;
+        color: #212121;
+        padding-top: 16px;
+        padding-bottom: 4px;
+      }
+      a {
+        font-family: Mulish;
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 21px;
+        text-align: left;
+        color: #b5b5c3;
+        padding-bottom: 16px;
+      }
+    }
+    .main {
+      .all-tovars {
+        background-color: #ffffff !important;
+        margin-top: 40px;
+        padding-top: 45px;
+        border-radius: 12px;
+        margin-bottom: 30px;
+        .all-tovars-text {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 0 24px;
+          padding-bottom: 44px;
+          border-bottom: 1px solid #e8e8f1;
+          h2 {
+            font-family: Mulish;
+            font-size: 16px;
+            font-weight: 800;
+            line-height: 11.52px;
+            text-align: left;
+            color: #212121;
+          }
+          .search {
+            position: relative;
+            display: flex;
+            align-items: center;
+            input {
+              background-color: #f7f7ff;
+              font-family: Mulish;
+              font-size: 15px;
+              font-weight: 700;
+              line-height: 21px;
+              text-align: left;
+              color: #a4a4ba;
+              outline: none;
+              border: none;
+              padding-left: 56px;
+              padding-top: 10px;
+              padding-bottom: 10px;
+              border-radius: 12px;
+            }
+            img {
+              position: absolute;
+              left: 20px;
+              z-index: 100;
+            }
+          }
+        }
+        .all-tovar-body {
+          padding-left: 24px;
+          padding-right: 24px;
+          table {
+            width: 100%;
+            border-collapse: collapse;
+
+            th {
+              border-bottom: 1px solid #e8e8f1;
+              width: 1130px;
+              padding-top: 39px;
+              padding-bottom: 20px;
+              font-family: Mulish;
+              font-size: 12px;
+              font-weight: 800;
+              line-height: 8.64px;
+              text-align: left;
+              color: #b5b5c3;
+            }
+            tbody {
+              &:last-child {
+                border: none !important;
+              }
+            }
+            td {
+              border-bottom: 1px solid #e8e8f1;
+              padding: 20px 0;
+              font-family: Mulish;
+              font-size: 14px;
+              font-weight: 800;
+              line-height: 10.08px;
+              text-align: left;
+              color: #212121;
+            }
+            .edit {
+              background: none;
+              border: none;
+              background-color: #f7f7ff;
+              width: 32px;
+              height: 32px;
+              border-radius: 6px;
+              margin-right: 6px;
+            }
+            .delete {
+              background: none;
+              border: none;
+              background-color: #f7f7ff;
+              width: 32px;
+              height: 32px;
+              border-radius: 6px;
+              margin-right: 6px;
+            }
+          }
+        }
+      }
+      .add-new-tovar {
+        button {
+          background-color: none;
+          border: none;
+          background: #1bc58d;
+          font-family: Mulish;
+          font-size: 14px;
+          font-weight: 800;
+          line-height: 10.08px;
+          text-align: left;
+          color: #ffffff;
+          padding: 15px 20px;
+          border-radius: 6px;
+          margin-bottom: 22px;
+        }
+      }
+    }
+  }
+}

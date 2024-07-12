@@ -1,0 +1,76 @@
+{
+  "products": [
+    {
+      "id": "1029384756",
+      "name": "Herbal Shampoo",
+      "code": "HS2002",
+      "brand": "NatureEssenc",
+      "price": 8.99,
+      "priceInSale": 6.99,
+      "description": "A shampoo made with natural herbs for healthy hair."
+    },
+    {
+      "id": "3847561920",
+      "name": "Vitamin C Serum",
+      "code": "VS3003",
+      "brand": "SkinGlow",
+      "price": 24.99,
+      "priceInSale": 19.99,
+      "description": "A serum with high concentration of Vitamin C for radiant skin."
+    },
+    {
+      "id": "5647382910",
+      "name": "Protein Bar",
+      "code": "PB4004",
+      "brand": "FitFuel",
+      "price": 1.99,
+      "priceInSale": 1.49,
+      "description": "A protein bar with 20g of protein, ideal for post-workout recovery."
+    },
+    {
+      "id": "9182736450",
+      "name": "Omega-3 Capsules",
+      "code": "OC5005",
+      "brand": "HealthBoost",
+      "price": 15.99,
+      "priceInSale": 12.99,
+      "description": "Omega-3 fatty acid capsules for heart and brain health."
+    },
+    {
+      "id": "1728394056",
+      "name": "Aloe Vera Gel",
+      "code": "AV6006",
+      "brand": "PureNatur",
+      "price": 7.99,
+      "priceInSale": 5.99,
+      "description": "Aloe Vera gel for soothing and moisturizing skin."
+    },
+    {
+      "id": "2837465910",
+      "name": "Multivitamin Tablets",
+      "code": "MT7007",
+      "brand": "VitaLife",
+      "price": 12.99,
+      "priceInSale": 9.99,
+      "description": "Multivitamin tablets to support overall health and wellness."
+    },
+    {
+      "id": "4657382910",
+      "name": "Green Tea Extract",
+      "code": "GT8008",
+      "brand": "HerbalZen",
+      "price": 14.99,
+      "priceInSale": 11.99,
+      "description": "Green tea extract capsules for metabolism and weight management."
+    },
+    {
+      "id": "3748291056",
+      "name": "Organic Honey",
+      "code": "OH9009",
+      "brand": "BeeNatural",
+      "price": 9.99,
+      "priceInSale": 7.99,
+      "description": "Pure organic honey sourced from local farms."
+    }
+  ]
+}
